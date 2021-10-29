@@ -1,0 +1,29 @@
+body {
+  background-image: url("cat.jpg");
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  border-radius: 30px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 0.8099614845938375) 100%
+  );
+  width: 60%;
+  margin-left: 180px;
+  box-shadow: 5px 10px 8px 10px black;
+}
+h1 {
+  color: white;
+}
+h5 {
+  color: white;
+}
+label {
+  color: white;
+}
